@@ -9,41 +9,52 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
     <header>
         <div class="header-container">
             <div>
-                <p>Gmail</p>
+                <p class="header-txt">Gmail</p>
             </div>
             <div>
-                <p>Imágenes</p>
+                <p class="header-txt">Imágenes</p>
             </div>
-            <div><span class="material-symbols-outlined">
+            <div><span class="btn-apps material-symbols-outlined">
                     apps
                 </span></div>
-            <div class="btn-sesion"><button>Iniciar sesión</button></div>
+            <div><button class="btn-sesion">Iniciar sesión</button></div>
         </div>
     </header>
     <main>
         <section>
             <div class="logo-google">
-                <p>Google</p>
+                <img src="assets/images/logo-google.png" alt="Google">
             </div>
-            <div><input type="text"></div>
+          <div class="section-barra">
+            <div><textarea name="buscar" id="txt-buscar" cols="1" rows="1" ></textarea></div>
             <div class="btn-container">
                 <div class="btn">Buscar con Google</div>
                 <div class="btn">Me siento con suerte</div>
             </div>
             <p>Ofrecido por Google en: <a href="#">Español(Latinoamérica)</a></p>
+          </div>
         </section>
     </main>
     <footer>
-        <div class="country"><p>Colombia</p></div>
+        <div class="country">
+            <p>Colombia</p>
+        </div>
         <div class="info-terms">
             <div class="info">
-                <ul >
+                <ul>
                     <li>Publicidad</li>
                     <li>Negocios</li>
                     <li>Sobre Google</li>
