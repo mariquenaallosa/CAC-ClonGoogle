@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 1rem;
+}
+
+div.header-container{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 1.2rem;
+    margin-top: 1rem;
+}
+
+.header-container div  p.header-txt{
+    display: inline-block;
+    padding-left: 15px;
+    font-size: 13px;
+    line-height: 24px;
+    vertical-align: middle;
+    color: rgba(0,0,0,.87); 
+}
+
+.material-symbols-outlined{
+    color: rgba(66, 66, 66, 0.87);
+
+}
+div button.btn-sesion {
+    padding: 9px 16px;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.25;
+    line-height: 16px;
+    text-align: center;
+    color:#fff;
+    background: #1a73e8;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+div button.btn-sesion:hover{
+    background: #1b66c9;
+    box-shadow: 0 1px 3px 1px rgba(66,64,67,.15), 0 1px 2px 0 rgba(60,64,67,.3);
+}
+
+main section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 2em;
+    height: 76vh;
+}
+
+main section .logo-google{
+    min-height: 92px;
+}
+
+main section .logo-google img {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+    object-position: center bottom;
+    width: auto;
+}
+
+main section .section-barra{
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main section .section-barra textarea{
+    padding:8px 20px;
+    border: 1px solid rgba(0,0,0,0.1);
+    width: 500px;
+    font-size: 16px;
+    line-height: 22px;
+    border-radius: 20px;
+    color: rgba(0,0,0,.87);
+    resize: none;
+    outline: none;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+main section .section-barra textarea:hover{
+    box-shadow:0 1px 6px rgba(32,33,36,.28);
+    border-color: rgba(223,225,229,0);
+}
+
+.section-barra .btn-container{
+    display: flex;
+    gap:1em;
+}
+
+.section-barra .btn-container .btn {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 4px 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.section-barra .btn-container .btn:hover {
+    box-shadow: 0 1px 1px rgba(0,0,0,.1);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+}
+
+
+footer{
+    display: flex;
+    flex-direction: column;
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: #70757a;
+    background: #f2f2f2;
+}
+
+footer .info-terms{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer ul {
+    text-align: center;
+    margin: 0;
+}
+
+footer ul li {
+        display: inline-block;
+        padding: 0 1.7em;
+        line-height: 3em;
+}
